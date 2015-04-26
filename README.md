@@ -8,8 +8,8 @@ Pexpect only runs on Linux so this script can only be run from Linux based syste
 
 <b>Install Pexpect:</b>
 
+```shell
 wget https://bootstrap.pypa.io/get-pip.py 
-
 python get-pip.py
-
 pip install pexpect
+```
