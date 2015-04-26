@@ -7,6 +7,9 @@ Prerequisites:
 Pexpect only runs on Linux so this script can only be run from Linux based systems.
 
 Install Pexpect:
+
 wget https://bootstrap.pypa.io/get-pip.py
+
 python get-pip.py
+
 pip install pexpect
