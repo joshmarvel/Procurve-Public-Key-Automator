@@ -6,7 +6,7 @@ For more information, visit: https://joshuamarvel.com/automate-procurve-client-p
 Prerequisites:
 Pexpect only runs on Linux so this script can only be run from Linux based systems.
 
-<b>Install Pexpect:</b>
+<b>Install Pip and Pexpect:</b>
 
 ```shell
 wget https://bootstrap.pypa.io/get-pip.py 
