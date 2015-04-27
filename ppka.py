@@ -91,7 +91,7 @@ for d in devices.values():
     s.expect(d[3])
   #Download operator keys from the TFTP server and install them              
   for operatorkey in operatorkeys:
-    s.sendline('copy tftp pub-key-file %s %s manager append' % (tftphost, operatorkey))
+    s.sendline('copy tftp pub-key-file %s %s operator append' % (tftphost, operatorkey))
     s.expect(d[3])  
   s.sendline('ip ssh filetransfer')              
   switch_close(d,s)               
